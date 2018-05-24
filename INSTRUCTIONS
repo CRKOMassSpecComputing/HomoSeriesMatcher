@@ -1,0 +1,20 @@
+The following document describes the steps necessary to run
+“HomoSeriesMatcher” to identify homologous series in high resolution mass
+spectrometry data. The process is divided into 3 R scripts that should run in
+numerical order as identified in the file name. 
+
+
+Step1_Identify_homologous_series.R 
+This script builds off of Martin Loos’ “nontarget” package
+found on GitHub. Homologous series are identified in each sample. 
+ 
+
+Step2_Filtering_out_crossmeshed_and_duplicate_series
+This script filters out crossmeshed and duplicate series for
+each sample. 
+
+
+Step3_Temporal_Series_Generation
+
+
+
